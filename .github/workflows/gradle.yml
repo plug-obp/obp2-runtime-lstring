@@ -32,6 +32,7 @@ jobs:
       shell: bash
       run: |
         echo "OBP2ReadOnlyMavenRepository=http://mocs-artefacts.ensta-bretagne.fr/maven_repository/" >> gradle.properties
+        echo "OBP2PublishMavenRepository=./maven_repository/" >> gradle.properties
     - name: Build with Gradle
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
