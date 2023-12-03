@@ -1,4 +1,4 @@
-# A String as an OBP2 LanguageModule
+# An OBP2 LanguageModule for Strings
 
 ## Purpose
 
